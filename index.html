@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview — Landing Pages</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root{
+    --bg:#05070d;
+    --panel:#0d1226;
+    --border:rgba(94,169,255,0.16);
+    --blue:#2f6bff;
+    --blue-bright:#4fc9ff;
+    --text:#f4f7ff;
+    --text-muted:#9aa6c9;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',Arial,sans-serif;
+    padding:24px;
+  }
+  .wrap{max-width:560px;width:100%;text-align:center;}
+  h1{font-size:1.4rem;margin:0 0 8px;font-weight:600;}
+  p.sub{color:var(--text-muted);margin:0 0 32px;font-size:0.95rem;}
+  .cards{display:grid;gap:16px;}
+  a.card{
+    display:block;
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:20px 24px;
+    text-align:left;
+    text-decoration:none;
+    color:var(--text);
+    transition:border-color .15s ease, transform .15s ease;
+  }
+  a.card:hover{border-color:var(--blue-bright);transform:translateY(-2px);}
+  a.card strong{display:block;font-size:1.05rem;margin-bottom:4px;}
+  a.card span{color:var(--text-muted);font-size:0.85rem;}
+  footer{margin-top:32px;color:var(--text-muted);font-size:0.75rem;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Preview das landing pages</h1>
+    <p class="sub">Apenas para visualização. Ainda não conectado ao domínio final.</p>
+    <div class="cards">
+      <a class="card" href="negocio-local/">
+        <strong>Negócio Local →</strong>
+        <span>/negocio-local</span>
+      </a>
+      <a class="card" href="hub-servicos/">
+        <strong>Hub de Serviços →</strong>
+        <span>/hub-servicos</span>
+      </a>
+    </div>
+    <footer>odanilosoares.com.br — versão de preview</footer>
+  </div>
+</body>
+</html>
