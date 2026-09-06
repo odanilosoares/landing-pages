@@ -300,6 +300,8 @@
   .footer-grid{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;}
   footer .brand{justify-content:center;}
   footer p{color:var(--text-faint);font-size:12.5px;max-width:420px;}
+  footer .legal-links a{color:var(--blue-soft,#8fb4ff);text-decoration:underline;text-underline-offset:2px;}
+  footer .legal-links a:hover{color:var(--blue-bright,#4fc9ff);}
 
   @media (min-width:760px){
     .hero-grid{grid-template-columns:1.05fr .95fr;text-align:left;}
@@ -318,8 +320,21 @@
     .steps-grid{grid-template-columns:repeat(3,1fr);}
   }
 </style>
+<script src="/consent.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MLM5XD5P');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLM5XD5P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 
 <div class="bg-fx">
   <div class="bg-grid"></div>
@@ -557,6 +572,7 @@
     <div class="wrap footer-grid">
       <div class="brand"><span class="brand-dot"></span>Danilo Soares — Tráfego Pago</div>
       <p>Ao enviar seus dados pelo formulário acima, você concorda que sejam usados apenas para retorno sobre esse contato.</p>
+      <p class="legal-links"><a href="/politica-de-privacidade">Política de Privacidade</a> &middot; <a href="/termos-de-uso">Termos de Uso</a> &middot; <a href="#" onclick="if(window.abrirPreferenciasCookies){window.abrirPreferenciasCookies();}return false;">Preferências de cookies</a></p>
       <p>© 2026 Danilo Soares. Todos os direitos reservados.</p>
     </div>
   </footer>

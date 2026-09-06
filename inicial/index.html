@@ -296,6 +296,8 @@
   .footer-grid{display:flex;flex-direction:column;gap:16px;align-items:center;text-align:center;}
   footer .brand{justify-content:center;}
   footer p{color:var(--text-faint);font-size:12.5px;max-width:420px;}
+  footer .legal-links a{color:var(--blue-soft,#8fb4ff);text-decoration:underline;text-underline-offset:2px;}
+  footer .legal-links a:hover{color:var(--blue-bright,#4fc9ff);}
   .footer-wa{
     display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;color:var(--blue-soft);
     border:1px solid var(--border-strong);padding:9px 16px;border-radius:999px;
@@ -316,8 +318,21 @@
     .services-grid{grid-template-columns:repeat(4,1fr);}
   }
 </style>
+<script src="/consent.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MLM5XD5P');</script>
+<!-- End Google Tag Manager -->
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLM5XD5P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 
 <div class="bg-fx">
   <div class="bg-grid"></div>
@@ -509,6 +524,7 @@
         (19) 99234-6860
       </a>
       <p>Ao enviar seus dados por qualquer um dos canais acima, você concorda que eles sejam usados apenas para retorno sobre esse contato.</p>
+      <p class="legal-links"><a href="/politica-de-privacidade">Política de Privacidade</a> &middot; <a href="/termos-de-uso">Termos de Uso</a> &middot; <a href="#" onclick="if(window.abrirPreferenciasCookies){window.abrirPreferenciasCookies();}return false;">Preferências de cookies</a></p>
       <p>© 2026 Danilo Soares. Todos os direitos reservados.</p>
     </div>
   </footer>
