@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://danilosoares.com.br/sitemap.xml
+Sitemap: https://www.odanilosoares.com.br/sitemap.xml
