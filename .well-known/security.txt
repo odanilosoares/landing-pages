@@ -1,0 +1,4 @@
+Contact: mailto:odanilo.msoares@gmail.com
+Expires: 2027-09-06T23:59:00.000Z
+Preferred-Languages: pt-BR, en
+Canonical: https://www.odanilosoares.com.br/.well-known/security.txt
