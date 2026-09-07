@@ -91,8 +91,22 @@
     backdrop-filter:blur(10px);
     border-bottom:1px solid var(--border);
   }
-  header .bar{display:flex;align-items:center;justify-content:center;padding:14px 0;}
+  header .bar{display:flex;align-items:center;justify-content:space-between;padding:14px 0;}
+  .header-cta{
+    font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:999px;
+    border:1px solid var(--border-strong);color:var(--blue-soft);
+    display:flex;align-items:center;gap:7px;white-space:nowrap;
+  }
+  .header-cta svg{width:15px;height:15px;flex:none;}
+  .header-actions{display:flex;align-items:center;gap:8px;}
+  .header-cta-icon{padding:9px;}
+  .header-cta-icon .ig-label{display:none;}
+  @media (min-width:760px){
+    .header-cta-icon{padding:9px 16px;}
+    .header-cta-icon .ig-label{display:inline;}
+  }
   .brand{display:flex;align-items:center;gap:10px;font-family:'Sora';font-weight:700;font-size:16px;letter-spacing:.01em;}
+  header .brand{color:var(--text);text-decoration:none;}
   .brand-dot{width:9px;height:9px;border-radius:50%;background:var(--blue-bright);box-shadow:0 0 12px 3px var(--glow);}
 
   /* hero */
@@ -310,6 +324,11 @@
   footer{border-top:1px solid var(--border);padding:34px 0;}
   .footer-grid{display:flex;flex-direction:column;gap:14px;align-items:center;text-align:center;}
   footer .brand{justify-content:center;}
+  .footer-social{
+    display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;color:var(--blue-soft);
+    border:1px solid var(--border-strong);padding:9px 16px;border-radius:999px;
+  }
+  .footer-social svg{width:15px;height:15px;}
   footer p{color:var(--text-faint);font-size:12.5px;max-width:420px;}
   footer .legal-links a{color:var(--blue-soft,#8fb4ff);text-decoration:underline;text-underline-offset:2px;}
   footer .legal-links a:hover{color:var(--blue-bright,#4fc9ff);}
@@ -358,7 +377,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <header>
     <div class="wrap bar">
-      <div class="brand"><span class="brand-dot"></span>Danilo Soares — Tráfego Pago</div>
+      <a class="brand" href="/inicial" aria-label="Ir para a página inicial"><span class="brand-dot"></span>Danilo Soares — Tráfego Pago</a>
+      <div class="header-actions">
+        <a class="header-cta header-cta-icon" href="https://www.instagram.com/odanilo.soares" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          <span class="ig-label">Instagram</span>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -582,6 +607,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <footer>
     <div class="wrap footer-grid">
       <div class="brand"><span class="brand-dot"></span>Danilo Soares — Tráfego Pago</div>
+      <a class="footer-social" href="https://www.instagram.com/odanilo.soares" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        Instagram
+      </a>
       <p>Ao enviar seus dados pelo formulário acima, você concorda que sejam usados apenas para retorno sobre esse contato.</p>
       <p class="legal-links"><a href="/politica-de-privacidade">Política de Privacidade</a> &middot; <a href="/termos-de-uso">Termos de Uso</a> &middot; <a href="#" onclick="if(window.abrirPreferenciasCookies){window.abrirPreferenciasCookies();}return false;">Preferências de cookies</a></p>
       <p>© 2026 Danilo Soares. Todos os direitos reservados.</p>
