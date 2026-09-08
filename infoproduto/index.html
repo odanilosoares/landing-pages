@@ -7,19 +7,19 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<title>Danilo Soares — Tráfego Pago para Negócio Local</title>
-<meta name="description" content="Gestão de tráfego pago pra donos de negócio local e profissionais autônomos que querem mais clientes, mais vendas e agenda cheia.">
+<title>Danilo Soares — Tráfego Pago para Infoprodutos</title>
+<meta name="description" content="Tráfego pago pra quem já lança infoproduto e quer escalar com previsibilidade. Mais de R$ 3 milhões geridos em mais de 500 lançamentos acompanhados.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Danilo Soares">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:url" content="https://www.odanilosoares.com.br/negocio-local">
-<meta property="og:title" content="Danilo Soares — Tráfego Pago para Negócio Local">
-<meta property="og:description" content="Gestão de tráfego pago pra donos de negócio local e profissionais autônomos que querem mais clientes, mais vendas e agenda cheia.">
-<meta property="og:image" content="https://www.odanilosoares.com.br/negocio-local/assets/img/hero-danilo-v3.jpg">
+<meta property="og:url" content="https://www.odanilosoares.com.br/infoproduto">
+<meta property="og:title" content="Danilo Soares — Tráfego Pago para Infoprodutos">
+<meta property="og:description" content="Tráfego pago pra quem já lança infoproduto e quer escalar com previsibilidade. Mais de R$ 3 milhões geridos em mais de 500 lançamentos acompanhados.">
+<meta property="og:image" content="https://www.odanilosoares.com.br/infoproduto/assets/img/hero-danilo-v3.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Danilo Soares — Tráfego Pago para Negócio Local">
-<meta name="twitter:description" content="Gestão de tráfego pago pra donos de negócio local e profissionais autônomos que querem mais clientes, mais vendas e agenda cheia.">
-<meta name="twitter:image" content="https://www.odanilosoares.com.br/negocio-local/assets/img/hero-danilo-v3.jpg">
+<meta name="twitter:title" content="Danilo Soares — Tráfego Pago para Infoprodutos">
+<meta name="twitter:description" content="Tráfego pago pra quem já lança infoproduto e quer escalar com previsibilidade. Mais de R$ 3 milhões geridos em mais de 500 lançamentos acompanhados.">
+<meta name="twitter:image" content="https://www.odanilosoares.com.br/infoproduto/assets/img/hero-danilo-v3.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
@@ -96,8 +96,12 @@
     border-bottom:1px solid var(--border);
   }
   header .bar{display:flex;align-items:center;justify-content:space-between;padding:14px 0;}
+  .brand-text-short{display:none;}
   @media (max-width:759px){
     header .bar{padding:14px 22px;}
+    header .brand{font-size:14px;line-height:1.3;}
+    .brand-text-full{display:none;}
+    .brand-text-short{display:inline;}
   }
   .header-cta{
     font-size:13.5px;font-weight:600;padding:9px 16px;border-radius:999px;
@@ -121,7 +125,7 @@
   .hero-grid{display:grid;grid-template-columns:1fr;gap:34px;align-items:center;}
   .hero-copy{text-align:center;}
   .hero h1{
-    font-size:clamp(30px,7.4vw,50px);
+    font-size:clamp(28px,7vw,46px);
     font-weight:800;
     margin:16px 0 14px;
     letter-spacing:-0.01em;
@@ -313,7 +317,7 @@
   .faq-item.open .faq-q svg{transform:rotate(45deg);}
   .faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;}
   .faq-a-inner{padding:0 20px 18px;color:var(--text-muted);font-size:14.5px;}
-  .faq-item.open .faq-a{max-height:260px;}
+  .faq-item.open .faq-a{max-height:280px;}
 
   /* cta final */
   .cta-final{
@@ -384,7 +388,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <header>
     <div class="wrap bar">
-      <a class="brand" href="/inicial" aria-label="Ir para a página inicial"><span class="brand-dot"></span>Danilo Soares — Tráfego Pago</a>
+      <a class="brand" href="/inicial" aria-label="Ir para a página inicial"><span class="brand-dot"></span><span class="brand-text-full">Danilo Soares — Especialista em Tráfego Pago para Lançamentos</span><span class="brand-text-short">Danilo Soares — Especialista em Tráfego Pago</span></a>
       <div class="header-actions">
         <a class="header-cta header-cta-icon" href="https://www.instagram.com/odanilo.soares" target="_blank" rel="noopener" aria-label="Instagram">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
@@ -398,17 +402,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <span class="eyebrow">Negócio local e profissional autônomo</span>
-        <h1>Mais clientes, mais vendas, <span>agenda cheia.</span></h1>
-        <p class="hero-sub">Tráfego pago estratégico pra donos de negócio local e profissionais autônomos que querem vender mais.</p>
+        <span class="eyebrow">Infoprodutos e lançamento</span>
+        <h1>Você não precisa de mais um gestor de tráfego. Precisa de alguém que <span>entenda lançamento.</span></h1>
+        <p class="hero-sub">Mais de R$ 3 milhões geridos e 500+ lançamentos acompanhados aplicando um método próprio de tráfego pago, da captação ao carrinho.</p>
         <div class="hero-cta">
-          <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdMrs_QDREfenJsSDdHIv7VfmkqiTJbUfO3ZMG64oWOAeiuYA/viewform?usp=header" target="_blank" rel="noopener">Quero mais clientes</a>
+          <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdMrs_QDREfenJsSDdHIv7VfmkqiTJbUfO3ZMG64oWOAeiuYA/viewform?usp=header" target="_blank" rel="noopener">Quero escalar meu lançamento</a>
         </div>
       </div>
       <div class="hero-photo-wrap">
         <div class="hero-photo-glow"></div>
         <div class="hero-photo">
-          <img src="/negocio-local/assets/img/hero-danilo-v3.jpg" alt="Danilo Soares, gestor de tráfego pago">
+          <img src="/infoproduto/assets/img/hero-danilo-v3.jpg" alt="Danilo Soares, gestor de tráfego pago">
           <span class="hero-tag">Certificado Google Ads e Meta Ads</span>
         </div>
       </div>
@@ -419,25 +423,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Isso te parece familiar?</span>
-        <h2>Se você é dono de negócio local ou profissional autônomo</h2>
+        <h2>Se você já lança infoproduto</h2>
       </div>
       <div class="dd-grid">
         <div class="dd-card cansado">
           <h3>Você já deve estar cansado de:</h3>
           <ul class="dd-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Ver a concorrência com a loja cheia enquanto a sua fica esperando cliente aparecer</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Postar nas redes sociais toda semana e não ver isso virar venda</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Depender só de indicação pra ter movimento no fim do mês</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Colocar dinheiro em "impulsionar publicação" sem saber se voltou algum resultado</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Ter um lançamento excelente e o próximo mediano, sem entender bem o motivo</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Não ter visibilidade do CPL até o carrinho já estar rodando, sem conseguir agir a tempo</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Escalar a verba e ver o resultado cair, em vez de crescer junto</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Contratar um gestor ou agência que trata seu lançamento igual anúncio de ecommerce, sem entender captação, aquecimento e carrinho</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Sentir que está deixando venda na mesa por falta de estrutura de tráfego pago, mesmo com uma boa oferta</li>
           </ul>
         </div>
         <div class="dd-card desejo">
           <h3>Então, o que você quer de verdade é:</h3>
           <ul class="dd-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Mais clientes chegando até você, todo mês</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Faturamento crescendo de forma constante, não só nos dias de sorte</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Agenda ou loja cheia, sem precisar sair correndo atrás de gente</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Saber exatamente pra onde está indo o dinheiro que você investe em anúncio</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Visibilidade do CPL desde os primeiros dias de captação, pra agir a tempo se algo sair do esperado</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Escalar o investimento em tráfego pago sem perder eficiência ao longo do lançamento</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Um parceiro de tráfego que entende a lógica de lançamento (semente, clássico, perpétuo, low ticket, VSL), não só "impulsionar anúncio"</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Cada lançamento gerando mais dado e mais clareza pra decisão da próxima edição</li>
           </ul>
         </div>
       </div>
@@ -454,20 +459,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="filtro-card sim">
           <h3>É pra você se:</h3>
           <ul class="filtro-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você é dono de negócio local (loja, clínica, restaurante, academia, oficina mecânica, salão, imobiliária, escola, entre outros)</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você é profissional autônomo (médico, fisioterapeuta, dentista, arquiteto, esteticista, nutricionista, personal trainer, entre outros)</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você já tem um produto ou serviço rodando e quer atrair mais gente pra ele</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você entende que tráfego pago é um investimento contínuo, não um anúncio pontual que "resolve tudo de uma vez"</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você está disposto a manter um investimento mensal em anúncios pra ter resultado de verdade</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você já lançou pelo menos um infoproduto (curso, mentoria, comunidade) e quer escalar com tráfego pago</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você roda ou pretende rodar lançamento clássico, semente, perpétuo, low ticket ou VSL</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você já tem uma oferta validada, com algumas vendas feitas</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você entende que tráfego pago em lançamento é investimento contínuo, com ajuste de estratégia a cada edição</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Você está disposto a manter verba de tráfego pago durante o lançamento, não só testar com um valor simbólico</li>
           </ul>
         </div>
         <div class="filtro-card nao">
           <h3>Não é pra você se:</h3>
           <ul class="filtro-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você busca resultado da noite pro dia, sem constância no investimento</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você ainda não tem um produto, serviço ou estrutura mínima pra atender quem chegar</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você quer só "um anúncio bonito", sem estratégia por trás</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você não tem nenhuma verba disponível pra investir em anúncios agora</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você ainda não vendeu nada e está validando se existe público pra sua oferta</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você quer resultado garantido sem nenhum investimento em tráfego pago</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você busca um anúncio pontual pra "salvar" um carrinho que já abriu, sem planejamento prévio</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 6 12 12M18 6 6 18"/></svg>Você não tem produto, serviço ou oferta definida ainda, só uma ideia</li>
           </ul>
         </div>
       </div>
@@ -481,10 +486,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2>Trabalho direto, sem enrolação</h2>
       </div>
       <ul class="check-grid">
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Planejamento da estratégia de anúncios pro seu negócio, no Google e no Instagram/Facebook</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Criação e gestão das campanhas no dia a dia</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Relatório semanal com os números que importam: quantas pessoas viram, quantas entraram em contato, quanto custou cada contato</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Ajustes constantes pra melhorar o resultado com o tempo</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Planejamento de tráfego pago específico pro seu lançamento (captação, aquecimento e carrinho), no Google Ads e Meta Ads</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Criação e gestão das campanhas em cada fase do lançamento</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Acompanhamento durante todo o lançamento com ajustes constantes</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Relatório com os números que importam: CPL, investimento e taxa de conversão de lead em venda</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Leitura de lançamento pra lançamento, transformando dado em decisão mais embasada na próxima edição</li>
       </ul>
     </div>
   </section>
@@ -500,17 +506,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="step-card">
           <div class="step-num">1</div>
           <h3>Modelagem da Demanda</h3>
-          <p>Entendemos seu negócio, sua região e quem é seu cliente ideal, pra confirmar que existe procura real e como ativá-la.</p>
+          <p>Entendemos seu público, sua oferta e o momento do seu lançamento, pra confirmar que existe demanda real e como ativá-la antes do carrinho abrir.</p>
         </div>
         <div class="step-card">
           <div class="step-num">2</div>
           <h3>Engenharia de Aquisição</h3>
-          <p>Colocamos no ar campanhas e criativos que realmente convertem, no Google e no Instagram/Facebook.</p>
+          <p>Colocamos no ar campanhas e criativos de captação e carrinho que realmente convertem, no Google Ads e no Meta Ads.</p>
         </div>
         <div class="step-card">
           <div class="step-num">3</div>
           <h3>Previsibilidade e Escala</h3>
-          <p>Toda semana você recebe um relatório completo, com ajustes constantes pra transformar o resultado em algo consistente e escalável.</p>
+          <p>Acompanhamento durante todo o lançamento e ajustes constantes, transformando o que aprendemos em cada edição em decisão mais embasada na seguinte.</p>
         </div>
       </div>
     </div>
@@ -519,13 +525,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section id="credibilidade" class="sobre">
     <div class="wrap sobre-grid">
       <div class="sobre-photo">
-        <img src="/negocio-local/assets/img/sobre-danilo.jpg" alt="Danilo Soares">
+        <img src="/infoproduto/assets/img/sobre-danilo.jpg" alt="Danilo Soares">
       </div>
       <div class="sobre-copy">
         <span class="eyebrow">Quem cuida do seu tráfego</span>
         <h2 style="margin-top:14px;">Danilo Soares</h2>
         <p style="margin-top:14px;">Sou gestor de tráfego pago em tempo integral desde 2021, <strong>certificado em Google Ads e Meta Ads pela Comunidade Sobral</strong>, formação de referência no mercado de tráfego no Brasil.</p>
-        <p>Já atendi <strong>mais de 90 negócios locais</strong>, de padaria a clínica de estética. Meu trabalho é direto: transformar investimento em anúncio em resultado que aparece no seu caixa.</p>
+        <p>Já geri <strong>mais de R$ 3 milhões em verba de anúncios</strong>, em mais de 500 lançamentos acompanhados. Meu trabalho é direto: transformar tráfego pago em venda que aparece no seu carrinho.</p>
         <ul class="cred-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Certificado Google Ads, Comunidade Sobral</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 13 4 4L19 7"/></svg>Certificado Meta Ads, Comunidade Sobral</li>
@@ -535,11 +541,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="cert-caption">
           <span class="eyebrow" style="font-size:11px;">Certificados</span>
           <div class="cert-row">
-            <button type="button" class="cert-card" data-full="/negocio-local/assets/img/cert-google-ads.jpg" data-alt="Certificado Google Ads, Comunidade Sobral">
-              <img src="/negocio-local/assets/img/cert-google-ads.jpg" alt="Certificado Google Ads, Comunidade Sobral">
+            <button type="button" class="cert-card" data-full="/infoproduto/assets/img/cert-google-ads.jpg" data-alt="Certificado Google Ads, Comunidade Sobral">
+              <img src="/infoproduto/assets/img/cert-google-ads.jpg" alt="Certificado Google Ads, Comunidade Sobral">
             </button>
-            <button type="button" class="cert-card" data-full="/negocio-local/assets/img/cert-meta-ads.jpg" data-alt="Certificado Meta Ads, Comunidade Sobral">
-              <img src="/negocio-local/assets/img/cert-meta-ads.jpg" alt="Certificado Meta Ads, Comunidade Sobral">
+            <button type="button" class="cert-card" data-full="/infoproduto/assets/img/cert-meta-ads.jpg" data-alt="Certificado Meta Ads, Comunidade Sobral">
+              <img src="/infoproduto/assets/img/cert-meta-ads.jpg" alt="Certificado Meta Ads, Comunidade Sobral">
             </button>
           </div>
           <span>Toque no certificado pra ver em tamanho maior</span>
@@ -557,31 +563,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="faq-list">
 
         <div class="faq-item">
-          <button class="faq-q">Meu negócio serve pra esse tipo de trabalho?
+          <button class="faq-q">Meu lançamento ainda é pequeno, faz sentido pra mim?
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
           </button>
-          <div class="faq-a"><div class="faq-a-inner">Se você tem negócio local ou é profissional autônomo e já atende clientes, sim. Já trabalhei com padaria, confeitaria, restaurante, restaurante japonês, imobiliária, madeireira, oficina mecânica, estúdio de tatuagem, clínica de estética, nutricionista, loja de calçados, empresa de energia solar, escola infantil, semijoias, estúdio de podcast, entre outros.</div></div>
+          <div class="faq-a"><div class="faq-a-inner">Faz. O ponto de partida não precisa ser grande, precisa ser real (uma oferta validada, com pelo menos algumas vendas). O trabalho é justamente estruturar o tráfego pago pra esse lançamento crescer de forma consistente a cada edição, em vez de começar grande de uma vez.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">Já tentei tráfego pago antes e não funcionou. O que muda com você?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Na maioria dos casos, o problema não é "tráfego pago não funciona", é tráfego tratado sem entender a lógica de lançamento. Trabalho com base no Método MEP, olhando captação, aquecimento e carrinho como etapas diferentes, com leitura de dados em cada uma.</div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q">Serve pra qualquer tipo de lançamento?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Sim. Já atendi lançamento clássico, semente, perpétuo, low ticket e VSL. A estratégia muda de acordo com o formato, mas o método por trás é o mesmo.</div></div>
         </div>
 
         <div class="faq-item">
           <button class="faq-q">Quanto custa?
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
           </button>
-          <div class="faq-a"><div class="faq-a-inner">Não trabalho com tabela fixa. Cada negócio tem uma realidade diferente, então eu avalio o seu caso e monto uma proposta sob medida. Preencha o formulário abaixo pra gente conversar.</div></div>
+          <div class="faq-a"><div class="faq-a-inner">Não trabalho com tabela fixa. Cada lançamento tem uma realidade diferente, então avalio o seu caso e monto uma proposta sob medida. Preencha o formulário abaixo pra gente conversar.</div></div>
         </div>
 
         <div class="faq-item">
           <button class="faq-q">Vou precisar ficar acompanhando tudo?
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
           </button>
-          <div class="faq-a"><div class="faq-a-inner">Não. Você recebe um relatório semanal completo, direto ao ponto, sem precisar mexer em nada.</div></div>
+          <div class="faq-a"><div class="faq-a-inner">Não. Ao longo de todo o lançamento você recebe atualização direto ao ponto, sem precisar mexer em nada.</div></div>
         </div>
 
         <div class="faq-item">
           <button class="faq-q">Em quanto tempo eu vejo resultado?
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
           </button>
-          <div class="faq-a"><div class="faq-a-inner">Os anúncios começam a gerar movimento já nos primeiros dias. Os resultados tendem a evoluir de forma consistente conforme acumulamos dados, realizamos os ajustes necessários e otimizamos as campanhas continuamente.</div></div>
+          <div class="faq-a"><div class="faq-a-inner">As campanhas de captação começam a gerar dado já nos primeiros dias, o que já ajuda a calibrar o CPL antes do carrinho abrir. Os resultados tendem a evoluir a cada lançamento, conforme acumulamos dados do seu público e da sua oferta.</div></div>
         </div>
 
         <div class="faq-item">
@@ -598,9 +618,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section id="cta-final">
     <div class="wrap">
       <div class="cta-final">
-        <h2>Vamos colocar seu negócio na frente de mais gente?</h2>
-        <p>Preencha o formulário e me conte um pouco sobre o seu negócio.</p>
-        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdMrs_QDREfenJsSDdHIv7VfmkqiTJbUfO3ZMG64oWOAeiuYA/viewform?usp=header" target="_blank" rel="noopener">Quero mais clientes</a>
+        <h2>Vamos escalar seu próximo lançamento?</h2>
+        <p>Preencha o formulário e me conte um pouco sobre o seu lançamento.</p>
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdMrs_QDREfenJsSDdHIv7VfmkqiTJbUfO3ZMG64oWOAeiuYA/viewform?usp=header" target="_blank" rel="noopener">Quero escalar meu lançamento</a>
       </div>
     </div>
   </section>
@@ -614,7 +634,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <footer>
     <div class="wrap footer-grid">
-      <div class="brand"><span class="brand-dot"></span>Danilo Soares — Tráfego Pago</div>
+      <div class="brand"><span class="brand-dot"></span>Danilo Soares — Especialista em Tráfego Pago para Lançamentos</div>
       <a class="footer-social" href="https://www.instagram.com/odanilo.soares" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
         Instagram
