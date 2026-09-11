@@ -274,6 +274,10 @@
   .model-card img{width:100%;display:block;}
   .model-card-label{display:block;padding:9px 10px;font-size:12px;color:var(--text-muted);background:var(--panel);border-top:1px solid var(--border);}
   .model-gallery-hint{display:block;text-align:center;margin-top:14px;font-size:12.5px;color:var(--text-faint);}
+  #monte-seu-kit .model-gallery{flex-wrap:nowrap;}
+  @media (max-width:759px){
+    #monte-seu-kit .model-gallery{flex-wrap:wrap;display:grid;grid-template-columns:repeat(2,1fr);justify-items:center;gap:14px 12px;}
+  }
 
   /* prova de credibilidade (sobre) */
   .sobre{background:var(--bg-alt);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
@@ -562,13 +566,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
       <div class="model-gallery">
-        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-site-danilo.jpg" data-alt="Modelo de plaquinha com QR Code para acesso ao site">
-          <img src="/plaquinhas/assets/img/modelo-site-danilo.jpg" alt="Modelo de plaquinha com QR Code para acesso ao site" width="700" height="994" style="height:auto" loading="lazy">
-          <span class="model-card-label">Modelo QR Code</span>
+        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-site-danilo.jpg" data-alt="Modelo de plaquinha Site, QR Code + NFC, fundo azul">
+          <img src="/plaquinhas/assets/img/modelo-site-danilo.jpg" alt="Modelo de plaquinha Site, QR Code + NFC, fundo azul" width="700" height="994" style="height:auto" loading="lazy">
+          <span class="model-card-label">Site - QR Code + NFC (azul)</span>
         </button>
-        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-wifi-degouveia.jpg" data-alt="Modelo de plaquinha com QR Code e NFC">
-          <img src="/plaquinhas/assets/img/modelo-wifi-degouveia.jpg" alt="Modelo de plaquinha com QR Code e NFC" width="700" height="994" style="height:auto" loading="lazy">
-          <span class="model-card-label">QR Code + NFC</span>
+        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-wifi-degouveia.jpg" data-alt="Modelo de plaquinha Wi-Fi, QR Code + NFC, fundo preto">
+          <img src="/plaquinhas/assets/img/modelo-wifi-degouveia.jpg" alt="Modelo de plaquinha Wi-Fi, QR Code + NFC, fundo preto" width="700" height="994" style="height:auto" loading="lazy">
+          <span class="model-card-label">Wi-Fi - QR Code + NFC (preto)</span>
         </button>
       </div>
       <span class="model-gallery-hint">Exemplos de modelos já produzidos. Toque pra ver em tamanho maior.</span>
@@ -591,17 +595,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span class="addon-pill"><strong>Catálogo / Linktree</strong>, todos os seus links em um só lugar</span>
       </div>
       <div class="model-gallery">
-        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-pix-danilo.jpg" data-alt="Modelo de plaquinha Pix">
-          <img src="/plaquinhas/assets/img/modelo-pix-danilo.jpg" alt="Modelo de plaquinha Pix" width="700" height="994" style="height:auto" loading="lazy">
-          <span class="model-card-label">Pix</span>
+        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-pix-danilo.jpg" data-alt="Modelo de plaquinha Pix, QR Code, fundo branco">
+          <img src="/plaquinhas/assets/img/modelo-pix-danilo.jpg" alt="Modelo de plaquinha Pix, QR Code, fundo branco" width="700" height="994" style="height:auto" loading="lazy">
+          <span class="model-card-label">PIX - QR Code (branco)</span>
         </button>
-        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-wifi-danilo.jpg" data-alt="Modelo de plaquinha Wi-Fi">
-          <img src="/plaquinhas/assets/img/modelo-wifi-danilo.jpg" alt="Modelo de plaquinha Wi-Fi" width="700" height="994" style="height:auto" loading="lazy">
-          <span class="model-card-label">Wi-Fi</span>
+        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-wifi-danilo.jpg" data-alt="Modelo de plaquinha Wi-Fi, QR Code + NFC, fundo preto">
+          <img src="/plaquinhas/assets/img/modelo-wifi-danilo.jpg" alt="Modelo de plaquinha Wi-Fi, QR Code + NFC, fundo preto" width="700" height="994" style="height:auto" loading="lazy">
+          <span class="model-card-label">Wi-Fi - QR Code + NFC (preto)</span>
         </button>
-        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-wifi-degouveia-branco.jpg" data-alt="Modelo de plaquinha Wi-Fi, versão branca">
-          <img src="/plaquinhas/assets/img/modelo-wifi-degouveia-branco.jpg" alt="Modelo de plaquinha Wi-Fi, versão branca" width="700" height="994" style="height:auto" loading="lazy">
-          <span class="model-card-label">Wi-Fi (branco)</span>
+        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-wifi-degouveia-branco.jpg" data-alt="Modelo de plaquinha Wi-Fi, QR Code + NFC, fundo branco">
+          <img src="/plaquinhas/assets/img/modelo-wifi-degouveia-branco.jpg" alt="Modelo de plaquinha Wi-Fi, QR Code + NFC, fundo branco" width="700" height="994" style="height:auto" loading="lazy">
+          <span class="model-card-label">Wi-Fi - QR Code + NFC (branco)</span>
+        </button>
+        <button type="button" class="model-card" data-full="/plaquinhas/assets/img/modelo-avaliacao-danilo.jpg" data-alt="Modelo de plaquinha Avaliação Google, QR Code + NFC, fundo preto">
+          <img src="/plaquinhas/assets/img/modelo-avaliacao-danilo.jpg" alt="Modelo de plaquinha Avaliação Google, QR Code + NFC, fundo preto" width="700" height="994" style="height:auto" loading="lazy">
+          <span class="model-card-label">Avaliação Google - QR Code + NFC (preto)</span>
         </button>
       </div>
       <span class="model-gallery-hint">Alguns modelos já produzidos. Toque pra ver em tamanho maior.</span>
